@@ -1,0 +1,43 @@
+.ankoleLogo{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    height: 250px;
+    z-index: 10;
+    width: 250px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    gap:20px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+  }
+  nav{
+   
+    background: black;
+    padding:5px 0;
+    border-radius: 30px;
+    height: 60px;
+    gap: 3%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    width: 45%;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+    border-radius: 30px;
+    height: 60px;
+  }
+  #quoteLeft{
+   color:red;
+   font-size: 24px;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
