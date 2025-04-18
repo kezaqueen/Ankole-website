@@ -1,0 +1,21 @@
+.kilimaniMenulocation{
+    background-image: url(images/red-cloth.jpg);
+    width: 50%;
+    height:100vh ;
+}
+.kilimaniMenulocation h3{
+    position: relative;
+    top: 250px;
+    left: 50%;
+    font-weight: 200px;
+    color: white;
+    font-size: 39px;
+}
+.kilimaniMenulocation h1{
+    position: relative;
+    color:  rgb(179, 66, 21);
+    top: 250px;
+    left: 46%;
+    font-size: 50px;
+    font-weight: 200px;
+}

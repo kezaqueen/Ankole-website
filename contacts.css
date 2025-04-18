@@ -1,0 +1,39 @@
+.ankolecontacts{
+    background-image:url(images/ankorecontact.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(60%);
+}
+.kitisurucontact{
+    color: wheat;
+    border: 3px solid wheat;
+    position: absolute;
+    left: 14cm;
+    top: 10cm;
+    font-size: 20px;
+    padding: 18px;
+    width: 20%;
+  
+}
+.kilimaniContact{
+    color:wheat;
+    border: 3px solid wheat;
+    text-align: center;
+    position: absolute;
+    top: 10cm;
+    left: 26cm;
+    padding: 20px;
+    font-size: 20px;
+    width: 20%;
+}
+.ankolecontacts{
+    display: flex;
+    gap:50cm;
+}
+.kitisurucontact:hover{
+    transform: translateY(-5px);
+  }
+  .kilimaniContact:hover{
+    transform: translateY(-5px);
+}

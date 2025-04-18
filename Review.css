@@ -1,3 +1,4 @@
+
 .ankoleLogo{
     position: absolute;
     top: 20px;
@@ -33,11 +34,75 @@ nav a{
     border-radius: 30px;
     height: 60px;
   }
-  #quoteLeft{
+  #quoteright{
    color:red;
    font-size: 24px;
+   margin-right:-30px;
   }
   body{
     background-color: black;
     color: white;
   }
+  .arrow{
+    width : 40px;
+    height: 40px;
+    position: absolute;
+    top: 65%; 
+    margin-top: -31px;
+  }
+  .left{
+    border-bottom: 6px solid; 
+   border-left:  6px solid;
+    transform: rotate(45deg);
+    left: 23%; 
+    
+  }
+  .right{
+    right: 23%; 
+    transform: rotate(-135deg); 
+    border-left: 6px solid; 
+   border-bottom: 6px solid;
+  }
+  .reviews{
+    text-align: center;
+    margin-top: 25%;
+  }
+  #quoteright{
+    color:red;
+   font-size: 24px;
+   margin-left:40%;
+   
+  }
+  #quoteleft{
+    color:red;
+    font-size: 24px;
+    margin-right:40%;
+  }
+  nav{
+   
+    background: rgb(15, 14, 14);
+    padding:5px 0;
+    border-radius: 30px;
+    height: 60px;
+    gap: 3%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    width: 45%;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+    border-radius: 30px;
+    height: 60px;
+
+  }
+  #reservation:hover{
+    background-color: white;
+    color:black;
+      }
+ #reservation a:hover{
+     background-color: white;
+     color: black;
+}

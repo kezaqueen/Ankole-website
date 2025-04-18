@@ -1,0 +1,49 @@
+.Accra{
+    background-image: url(images/Acraa.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+    filter: brightness(50%);
+    color:white;
+    text-align: center;
+}
+.accrawords{
+    margin-top: 50%;
+    font-size: 20px;
+}
+.Nairobi{
+    background-image: url(images/Nairobi.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+    filter: brightness(50%);
+    color: white;
+    text-align: center; 
+}
+.nairobiwords{
+    margin-top: 50%;
+    font-size: 20px;
+}
+.zanzibar{
+    background-image: url(images/zanzibar.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+    filter: brightness(50%);
+    color:white;
+    text-align: center;
+}
+.zanzibarwords{
+    margin-top: 48%;
+   font-size: 20px;
+}
+.events h4{
+    color: rgb(245, 245, 141);
+  }
+.events h2{
+    font-size: 50px;
+}
+.events{
+    display: flex;
+}
+
