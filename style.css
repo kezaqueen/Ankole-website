@@ -197,8 +197,6 @@ nav{
 }
 body{
   margin: 0;
-  overflow-y: hidden;
-  overflow-x: hidden;
   font-family: sans-serif;
 }
 #reservation:hover{
@@ -216,4 +214,220 @@ body{
   width: 10%;
   height: 2vh;
   padding-top: 5px; 
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+  @import url('https://fonts.cdnfonts.com/css/cmu-typewriter-text');
+  .Ankole-view{
+      background-image: url(./images/Ankole-view.jpg);
+      
+  }
+  .Ankole-inside{
+      background-image: url(./images/Ankore-inside.jpg);
+  }
+  .steakAndChips{
+      background-image: url(./images/steak\ and\ chips.jpg);
+  }
+  .desert{
+      background-image: url(./images/Ankore-desert.jpg);
+  }
+  .fruits{
+    background-image: url(images/savourFood.jpg);
+    height: 100vh;
+  }
+  #bars{
+      color: rgb(253, 249, 249);
+      position: absolute;
+      margin-right: 800px;
+      margin-top: 13px;
+      cursor: pointer;
+  }
+  #clock{
+    color: rgb(250, 243, 243);
+      position: absolute;
+      margin-right: 700px;
+      margin-top: 13px;
+      cursor: pointer;
+  }
+  .home{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      animation: slideAnimation 25s infinite;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: rgba(115, 115, 115, 0.81);
+      transition: opacity 1s ease-in-out;
+  }
+  .Ankole-home :nth-child(1) {animation-delay: 0s;}
+  .Ankole-home :nth-child(2) {animation-delay: 5s;}
+  .Ankole-home :nth-child(3) {animation-delay: 10s;}
+  .Ankole-home :nth-child(4) {animation-delay: 15s;}
+  .Ankole-home :nth-child(5) {animation-delay: 20s;}
+  
+  @keyframes slideAnimation {
+      0% { opacity:  0; }
+      5% { opacity:  1; }
+      20% { opacity: 1; }
+      25% { opacity: 0; }
+      100% { opacity: 0;}
+    }
+    .Ankole-home{
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      p{
+        font-family: 'CMU Typewriter Text', sans-serif;
+        font-size: 144px;
+      }
+    }
+  nav{
+     
+      background: black;
+      padding:10px 0;
+      border-radius: 30px;
+      height: 60px;
+      gap: 3%;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 12%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      z-index: 10;
+      border-radius: 30px;
+      height: 70px;
+  
+    }
+    nav a{
+      text-decoration: none;
+      color: white;
+      padding: 0;
+      gap:40px;
+      padding-top: 10px;
+      transition: 0.2s ease;
+    }
+    .ankola-logo{
+      position: absolute;
+      top: 20px;
+      left: 2.5cm;
+      height: 5%;
+      z-index: 10;
+      width: 2%;
+    }
+  .ankoleLogo{
+      position: absolute;
+      top: 20px;
+      left: 45%;
+      height: 80px;
+      z-index: 10;
+      width: 2.5%;
+  }
+  .kitisuru-view{
+    background-image: url(images/Ankole-view.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    height: 100vh;
+    width: 100%;
+  
+  }
+  #barsMenu{
+    color: rgb(253, 249, 249);
+    position: absolute;
+    margin-right: 800px;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+  #clockMenu{
+    color: rgb(250, 243, 243);
+      position: absolute;
+      margin-right: 700px;
+      margin-top: 13px;
+      cursor: pointer;
+  }
+  .kitisuru-view h1{
+    color: white;
+    font-size: 68px;
+    position: relative;
+    top:200px;
+    left: 300px;
+  }
+  .kitisuru-view h2{
+    color:  rgb(179, 66, 21);
+    position: relative;
+    top: 250px;
+    left: 300px;
+    font-size: 40px;
+  }
+  .kitisuru-view a{
+    text-decoration: none;
+  }
+  .kitisuru-view p{
+    color: white;
+    position: relative;
+    top: 170px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: 200px;
+  }
+  
+  .menu-nav{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    gap:20px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+  }
+  .clock-texts{
+    display: inline-block;
+    position: absolute;
+    color:black;
+    background-color: white;
+    padding:3vh;
+    border: none;
+    width:30vh;
+    border-radius: 20px;
+    z-index:1;
+    display: none;
+    bottom:100px;
+  }
+  .clock{
+    position: relative;
+    display: block;
+    margin-top: 0.4%;
+  }
+  .clock:hover{
+    background-color: white;
+    color: black;
+  }
+  .clock:hover .clock-texts{
+    display: block;
+  }
+  body{
+    margin: 0;
+    font-family: sans-serif;
+  }
+  #reservation:hover{
+    background-color: white;
+    color:black;
+      }
+      #reservation a:hover{
+        background-color: white;
+        color: black;
+  }
+  #reservation{
+    background-color: grey;
+    border-radius: 20px;
+    padding: 15px;
+    width: 10%;
+    height: 2vh;
+    padding-top: 5px; 
+  }
 }

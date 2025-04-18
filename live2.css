@@ -1,0 +1,46 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+.livetwoimag{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url("images/the-mushrooms.jpg");
+   background-repeat: no-repeat;
+   height: 200vh;
+   width: 99vw;
+   margin: 0;
+   overflow-x: hidden;
+   background-size: cover;
+}
+.livetwoimag h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    transform: translate(34vw,50vh);
+    font-family: "American Typewriter",sans-serif;
+    line-height: 70px;
+    font-weight: 500;
+    font-size: 65px;  
+}
+.navigation{
+    background: black;
+    padding:5px 0;
+    border-radius: 30px;
+    height: 60px;
+    gap: 3%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    width: 45%;
+    left: 16cm;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+    border-radius: 30px;
+    height: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    gap:20px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+  }

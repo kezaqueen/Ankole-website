@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .liveAnkole {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/live-image.jpg);
     background-size: cover;
@@ -16,11 +17,21 @@
 .liveoneWords{
     margin-top: 120px;
 }
-.liveoneWords p{
-    color: rgb(179, 66, 21);
-}
-.liveoneWords h2{
+
+.liveAnkole p{
     color: white;
+    font-size: 32px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.liveAnkole h1{
+    color:  rgb(179, 66, 21);
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+
 }
 .themushrooms{
     position: absolute;
@@ -59,8 +70,118 @@
   }
   .logo{
     position: absolute;
-    left: 12cm;
+    left: 18cm;
+    margin-top: 100px;
   }
   #logonavBar{
     margin-left: 2%;
 }
+/* .liveAnkole h3{
+    color:  rgb(179, 66, 21);
+    font-size: 40px;
+    left: 1cm;
+}
+.liveAnkole h2{
+color: white;
+font-size: 20px;
+left: 2cm;
+} */
+.live-one img{
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    width: 13vw;
+}
+.liveoneWords p{
+
+    font-size: 20px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;  
+    color:  rgb(179, 66, 21);
+}
+.liveoneWords h2{
+    color: white;
+    font-size: 25px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.live-one img:hover {
+    transform: scale(1.1);
+}
+.themushrooms img{
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    width: 13vw; 
+}
+.themushrooms img:hover{
+    transform: scale(1.1);  
+}
+.themushrooms p{
+    font-size: 20px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;  
+    color:  rgb(179, 66, 21)
+}
+.themushrooms h2{
+    color: white;
+    font-size: 25px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.imagemuguna img{
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    width: 13vw; 
+} 
+.imagemuguna img:hover{
+    transform: scale(1.1); 
+}
+.imagemuguna p{
+    font-size: 20px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;  
+    color:  rgb(179, 66, 21)
+}
+.imagemuguna h2{
+    color: white;
+    font-size: 25px;
+    font-family: "American Typewriter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.navigation{
+    background: black;
+    padding:5px 0;
+    border-radius: 30px;
+    height: 60px;
+    gap: 3%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    width: 45%;
+    left: 8cm;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+    border-radius: 30px;
+    height: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    gap:20px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+  }

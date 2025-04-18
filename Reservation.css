@@ -30,10 +30,12 @@
 .reservation-details{
   background-color: black;
   width: 50%;
+  height: 100vh;
 }
 .reservationbody{
   margin: 0;
   width: 100%;
+  overflow: hidden;
 }
 .details{
     display: flex;
@@ -98,6 +100,9 @@ form{
 .formDetails label{
   color: white;
 }
+input:focus{
+    outline: green solid 4px;
+}
 .navigation{
   background: black;
   padding:5px 0;
@@ -116,3 +121,10 @@ form{
   border-radius: 30px;
   height: 60px;
 }
+#labelSubmit:focus{
+    outline: none;
+ }
+ #labelSubmit:hover{
+    background-color: #8A6E42;
+    color: #F2D5A5;
+ }
