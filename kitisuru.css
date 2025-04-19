@@ -75,8 +75,9 @@
  }
 .wholeTea{
 display: flex;
-gap: 7%;
-margin-right: 30px;
+justify-content: center;
+gap: 43%;
+/* margin-right: 30px; */
 }
 #minilogo{
     width: 4%;
@@ -84,7 +85,8 @@ margin-right: 30px;
 }
 .salads{
     display: flex;
-    gap: 9%;
+    justify-content: center;
+    gap: 13%;
     margin-top: 2%;
     font-family: "American Typewriter";
     font-style: normal;
@@ -94,6 +96,3 @@ margin-right: 30px;
 color: rgb(249, 205, 140);
 text-decoration: none;
 }
-/* #breakfast{
-  
-} */
