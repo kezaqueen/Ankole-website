@@ -2,10 +2,12 @@
 .menuView{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(images/red-cloth.jpg);
     width: 50vw;
-    height:130vh;
+    height:120vh;
     background-repeat: no-repeat;
     position: relative;
     overflow-x: hidden;
+    background-size: 200vh;
+
   }
   .menuView p{
     position:absolute;
@@ -34,20 +36,21 @@
   }
   .menu-details{
     background-color: black;
-    width: 50%;
+    width: 50vw;
     color: white;
-    overflow: scroll;
   }
   .kilimanibody{
     margin: 0;
     width: 100%;
+    display: flex;
+  
   }
   .details{
       display: flex;
       font-family: "American Typewriter";
       font-style: normal;
       font-weight: 600;
-
+      height: 120vh;
   }
   .navigation{
     background: black;
@@ -77,7 +80,7 @@
 display: flex;
 justify-content: center;
 gap: 43%;
-/* margin-right: 30px; */
+
 }
 #minilogo{
     width: 4%;
@@ -95,4 +98,15 @@ gap: 43%;
 .menuTitle a{
 color: rgb(249, 205, 140);
 text-decoration: none;
+}
+.details h2{
+  color:rgb(179, 66, 21);
+  margin-left: 30px;
+}
+.details h3{
+  margin-top: 60px;
+  margin-left: 30px;
+}
+#kilimani{
+  margin-left: 30px;
 }

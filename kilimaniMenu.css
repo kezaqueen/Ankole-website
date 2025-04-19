@@ -1,12 +1,13 @@
-
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .menuView{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(images/red-cloth.jpg);
     width: 50vw;
-    height:130vh;
+    height:120vh;
     background-repeat: no-repeat;
     position: relative;
     overflow-x: hidden;
-    /* margin-bottom: 20px; */
+    background-size: 200vh;
+
   }
   .menuView p{
     position:absolute;
@@ -15,6 +16,10 @@
     position: relative;
     top:200px;
     left:10cm;
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 600;
+
   }
   .menuView h3{
     position: absolute;
@@ -31,17 +36,21 @@
   }
   .menu-details{
     background-color: black;
-    width: 50%;
+    width: 50vw;
     color: white;
-    overflow: auto;
-    overflow-y: scroll;
   }
   .kilimanibody{
     margin: 0;
     width: 100%;
+    display: flex;
+  
   }
   .details{
       display: flex;
+      font-family: "American Typewriter";
+      font-style: normal;
+      font-weight: 600;
+      height: 120vh;
   }
   .navigation{
     background: black;
@@ -69,8 +78,9 @@
  }
 .wholeTea{
 display: flex;
-gap: 7%;
-margin-right: 30px;
+justify-content: center;
+gap: 43%;
+
 }
 #minilogo{
     width: 4%;
@@ -78,6 +88,25 @@ margin-right: 30px;
 }
 .salads{
     display: flex;
-    gap: 9%;
+    justify-content: center;
+    gap: 13%;
     margin-top: 2%;
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 600;
+}
+.menuTitle a{
+color: rgb(249, 205, 140);
+text-decoration: none;
+}
+.details h2{
+  color:rgb(179, 66, 21);
+  margin-left: 30px;
+}
+.details h3{
+  margin-top: 60px;
+  margin-left: 30px;
+}
+#kilimani{
+  margin-left: 30px;
 }
