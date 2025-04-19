@@ -1,4 +1,4 @@
-
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .menuView{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(images/red-cloth.jpg);
     width: 50vw;
@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     position: relative;
     overflow-x: hidden;
-    /* margin-bottom: 20px; */
   }
   .menuView p{
     position:absolute;
@@ -15,6 +14,10 @@
     position: relative;
     top:200px;
     left:10cm;
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 600;
+
   }
   .menuView h3{
     position: absolute;
@@ -41,6 +44,10 @@
   }
   .details{
       display: flex;
+      font-family: "American Typewriter";
+      font-style: normal;
+      font-weight: 600;
+
   }
   .navigation{
     background: black;
@@ -79,8 +86,14 @@ margin-right: 30px;
     display: flex;
     gap: 9%;
     margin-top: 2%;
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 600;
 }
 .menuTitle a{
 color: rgb(249, 205, 140);
 text-decoration: none;
 }
+/* #breakfast{
+  
+} */

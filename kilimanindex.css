@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .kilimani-view a{
     text-decoration: none;
 }
@@ -7,7 +8,9 @@
     top: 170px;
     left: 300px;
     font-size: 20px;
-    font-weight: 200px;
+    font-weight: 600;
+    font-family: "American Typewriter";
+    font-style: normal;
 }
 .kilimani-view h2{
     color:  rgb(179, 66, 21);
@@ -15,13 +18,60 @@
     top: 250px;
     left: 300px;
     font-size: 40px;
+    font-weight: 600;
+    font-family: "American Typewriter";
+    font-style: normal;
 }
+.kitisuru-view{
+    background-image: url(images/Ankole-view.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    height: 100vh;
+    width: 100%;
+}
+.kitisuru-view h1{
+    color: white;
+    font-size: 68px;
+    position: relative;
+    top:200px;
+    left: 300px;
+    font-weight: 600;
+    font-family: "American Typewriter";
+    font-style: normal;
+  }
+  .kitisuru-view h2{
+    color:  rgb(179, 66, 21);
+    position: relative;
+    top: 250px;
+    left: 300px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "American Typewriter";
+    font-style: normal;
+  }
+  .kitisuru-view a{
+    text-decoration: none;
+  }
+  .kitisuru-view p{
+    color: white;
+    position: relative;
+    top: 170px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "American Typewriter";
+    font-style: normal;
+  }  
 .kilimani-view h1{
     color: white;
     font-size: 68px;
     position: relative;
     top:200px;
     left: 300px;
+    font-weight: 500;
+    font-family: "American Typewriter";
+    font-style: normal;
 }
 .menu-location{
     display: flex;
@@ -34,4 +84,99 @@
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    .kilimani-view a{
+        text-decoration: none;
+    }
+    .kilimani-view p{
+        color: white;
+        position: relative;
+        top: 170px;
+        left: 110px;
+        font-size: 20px;
+        font-weight: 200px;
+    }
+    .kilimani-view h2{
+        color:  rgb(179, 66, 21);
+        position: relative;
+        top: 250px;
+        left: 110px;
+        font-size: 40px;
+    }
+    .kilimani-view h1{
+        color: white;
+        font-size: 68px;
+        position: relative;
+        top:200px;
+        left: 110px;
+    }
+    .menu-location{
+        display: block;
+        width: 100%;
+    }
+    .kilimani-view{
+        background-image: url(images/kilimani-night.jpg);
+        filter: brightness(60%);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    } 
+    .kitisuru-view{
+        background-image: url(images/Ankole-view.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: brightness(50%);
+        height: 100vh;
+        width: 100%;
+      
+      }
+      #barsMenu{
+        color: rgb(253, 249, 249);
+        position: absolute;
+        margin-right: 800px;
+        margin-top: 13px;
+        cursor: pointer;
+      }
+      #clockMenu{
+        color: rgb(250, 243, 243);
+          position: absolute;
+          margin-right: 700px;
+          margin-top: 13px;
+          cursor: pointer;
+      }
+      .kitisuru-view h1{
+        color: white;
+        font-size: 68px;
+        position: relative;
+        top:200px;
+        left: 110px;
+      }
+      .kitisuru-view h2{
+        color:  rgb(179, 66, 21);
+        position: relative;
+        top: 250px;
+        left: 110px;
+        font-size: 40px;
+      }
+      .kitisuru-view a{
+        text-decoration: none;
+      }
+      .kitisuru-view p{
+        color: white;
+        position: relative;
+        top: 170px;
+        left: 110px;
+        font-size: 20px;
+        font-weight: 200px;
+      }
 }

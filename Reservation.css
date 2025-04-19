@@ -1,10 +1,13 @@
 
+
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .reservationView{
   background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(images/goodflower.jpg);
   width: 50vw;
   height:100vh;
   background-repeat: no-repeat;
   margin-bottom: 20px;
+  font-family: "American Typewriter";
 }
 .reservationView p{
   position:absolute;
@@ -128,3 +131,29 @@ input:focus{
     background-color: #8A6E42;
     color: #F2D5A5;
  }
+ .navigation{
+    background: black;
+    padding:5px 0;
+    border-radius: 30px;
+    height: 60px;
+    gap: 3%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    width: 45%;
+    left: 16cm;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+    border-radius: 30px;
+    height: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    gap:20px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+  }

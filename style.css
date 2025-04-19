@@ -113,15 +113,6 @@ nav{
     z-index: 10;
     width: 250px;
 }
-.kitisuru-view{
-  background-image: url(images/Ankole-view.jpg);
-  background-position: center;
-  background-size: cover;
-  filter: brightness(50%);
-  height: 100vh;
-  width: 100%;
-
-}
 #barsMenu{
   color: rgb(253, 249, 249);
   position: absolute;
@@ -135,31 +126,6 @@ nav{
     margin-right: 700px;
     margin-top: 13px;
     cursor: pointer;
-}
-.kitisuru-view h1{
-  color: white;
-  font-size: 68px;
-  position: relative;
-  top:200px;
-  left: 300px;
-}
-.kitisuru-view h2{
-  color:  rgb(179, 66, 21);
-  position: relative;
-  top: 250px;
-  left: 300px;
-  font-size: 40px;
-}
-.kitisuru-view a{
-  text-decoration: none;
-}
-.kitisuru-view p{
-  color: white;
-  position: relative;
-  top: 170px;
-  left: 300px;
-  font-size: 20px;
-  font-weight: 200px;
 }
 
 .menu-nav{
@@ -216,6 +182,9 @@ body{
   padding-top: 5px; 
 }
 @media screen and (min-width: 320px) and (max-width: 857px){
+  #menu,#reviews,#events,#live,#contacts,#home{
+    display: none;
+  }
   @import url('https://fonts.cdnfonts.com/css/cmu-typewriter-text');
   .Ankole-view{
       background-image: url(./images/Ankole-view.jpg);
@@ -236,27 +205,28 @@ body{
   }
   #bars{
       color: rgb(253, 249, 249);
-      position: absolute;
-      margin-right: 800px;
+      position: fixed;
+      margin-right: 80px;
       margin-top: 13px;
       cursor: pointer;
   }
   #clock{
     color: rgb(250, 243, 243);
-      position: absolute;
+      position: fixed;
       margin-right: 700px;
       margin-top: 13px;
       cursor: pointer;
   }
   .home{
-      position: absolute;
+      position: fixed;
       width: 100%;
       height: 100%;
       opacity: 0;
+      margin-top: 20px;
       animation: slideAnimation 25s infinite;
       background-size: cover;
       background-position: center;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -282,26 +252,26 @@ body{
       object-fit: cover;
       p{
         font-family: 'CMU Typewriter Text', sans-serif;
-        font-size: 144px;
+        font-size: 100px;
       }
     }
   nav{
      
       background: black;
-      padding:10px 0;
+      padding:5px 0;
       border-radius: 30px;
       height: 60px;
-      gap: 3%;
-      position: absolute;
+      gap: 5%;
+      position: fixed;
       bottom: 0;
-      width: 100%;
+      width: 80%;
       left: 12%;
       display: flex;
       justify-content: center;
-      padding: 10px 0;
+      padding: 5px 0;
       z-index: 10;
       border-radius: 30px;
-      height: 70px;
+      height: 50px;
   
     }
     nav a{
@@ -313,20 +283,19 @@ body{
       transition: 0.2s ease;
     }
     .ankola-logo{
-      position: absolute;
+      position: fixed;
       top: 20px;
       left: 2.5cm;
       height: 5%;
       z-index: 10;
-      width: 2%;
+      width: 20px;
     }
   .ankoleLogo{
       position: absolute;
       top: 20px;
       left: 45%;
       height: 80px;
-      z-index: 10;
-      width: 2.5%;
+      width: 60px;
   }
   .kitisuru-view{
     background-image: url(images/Ankole-view.jpg);
@@ -426,8 +395,37 @@ body{
     background-color: grey;
     border-radius: 20px;
     padding: 15px;
-    width: 10%;
+    width: 30%;
     height: 2vh;
     padding-top: 5px; 
+  }
+}
+.social-media-brands {
+  position: absolute;
+ padding-left: 93.5%;
+ top: 5%;
+ display: flex;
+ gap: 10%;
+ text-align: center;
+  i{
+      border-radius: 50%;
+      border: solid 1px #737373;
+      padding: 8%;
+      background-color: none;
+      color:#737373;
+      width: 2vw;
+      height: 2vh;
+  }
+}
+  .whatsapp{
+      position: absolute;
+ padding-left: 95%;
+ top: 76%;
+  i{
+      padding: 100%;
+      background-color: black;
+      color: white;
+      border: solid 0.5px;
+      border-radius: 50%;
   }
 }

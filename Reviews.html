@@ -1,41 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Review.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
- <div>
-    <a href="index.html"><img src="images/ankole-logo.png" class="ankoleLogo"></a>
-    <div class="reviews">
-        <h1>Reviews</h1>
-        <a href=""><div class="arrow left"></div></a>
-    <i class="fa fa-quote-left" id="quoteleft"></i>
-        <p>
-            This place is run by educated, innovative &creative people! The architectural layout, seating, ambience,<br>
-            lighting, cutlery: servings, design; has been impeccably well thought out! Even thewashrooms were<br>
-            excellent! The food was AWESOME! This is surprising consideringthe fact we were there on a Saturday night<br>
-            & they almost had no space!We were extremely well serviced too! Rare to find such finesse in Kenya! You<br>
-            must go visitthem! 
-        </p>
-        <p>irfan virji KITISURU</p>
-        <a href=""><div class="arrow right"></div></a>
-    <i class="fa fa-quote-right" id="quoteright"></i>
-    </div>
- </div>   
- <nav>
-    <a href="">Home</a>
+<html>
+  <head>
+  <title>Reviews</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="Review.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="reviews-page">
+            <div class="review">
+                    <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br>
+                    <br>
+                  Such a fantastic restaurant, I plan on being a regular here. The food is amazing the atmosphere is so nice and <br>
+                    the service is exceptional. I pray you are able to visit them at least once so you can understand what I'm saying.<br>
+                    10/10.Recommended dishes: Steak must go visitthem!<br>
+                    Paul Kamau<br>KITISURU<br>
+                    <i class="fa-solid fa-quote-right"></i>
+                    </p>
+            </div>
+            <div class="review">
+                    <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br>
+                    <br>
+                    Best place to eat out. If you want to have a niceromantic date this place is perfect. The food is fantastic only
+                      <br> be carefulcause the portions are bigger than you would expect.<br>
+                      Vladimiro Stivali<br>KITISURU<br>
+                    <i class="fa-solid fa-quote-right"></i>
+                    </p>
+            </div>
+            <div class="review">
+              <p>
+              <i class="fa-solid fa-quote-left"></i>
+              <br>
+              <br>
+              Ankole grill is perfect for a night out with groups orsolo dining. It's a lovely space with cushy furniture and a
+                <br>fine outdoor diningarea. The music isn't too loud, just the right level so you have hearyourselves speak. They
+                <br> have a wide array of food, which was tasty, with thesteak done to perfection. Their dessert options is<br>
+                commendable. Not to forget,the wait staff quite attentive.<br>
+                Osayu Uwaifo<br>KILIMANI<br><br>
+              <i class="fa-solid fa-quote-right"></i>
+              </p>
+            </div>
+        <button class="review-button display-left" onclick="plusDivs(-1)">
+            &#10094;
+        </button>
+        <button class="review-button display-right" onclick="plusDivs(1)">
+            &#10095;
+        </button>
+    </div>   <nav class="navigation">
+        <i class="fa-solid fa-bars" id="bars"></i>
+            <div class="clock">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-clock3-icon lucide-clock-3">
+                        <circle cx="12" cy="12" r="10" />
+                        <polyline points="12 6 12 12 16.5 12" />
+                    </svg></li>
+    
+                <div class="clock-texts">
+                    <p>Opening Hours</p>
+                    <h2>Kitisuru</h2>
+                    <p>Mon - Sun</p>
+                    <p>9.00am - 11.00pm</p>
+                    <h2>Kilimani</h2>
+                    <p>Mon - Sun</p>
+                    <p>7.30am - 11.00pm</p>
+                </div>
+            </div>
+    <a href="index.html">Home</a>
     <a href="kilimanindex.html">Menu</a>
     <a href="Reviews.html">Reviews</a>
     <a href="events.html">Events</a>
     <a href="live.html">live</a>
     <a href="contacts.html">contacts</a>
     <a href="Reservation.html" id="reservation">Reservation</a>
-</nav>
-</body>
+    </nav>
+        </div>
+    </section>
+    <section class="social-media-brands">
+        <div class="ankoleLogo">
+            <img src="images/ankole-logo.png"id="logoAnkole">
+            <br>
+            <h1>Reviews</h1>
+        </div>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+</section>
+<div class="whatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+</div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("review");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
 </html>
